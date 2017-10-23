@@ -1,0 +1,399 @@
+@charset "utf-8";
+
+/*全局样式*/
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: 微软雅黑,"Helvetica Neue", Helvetica, "STHeiTi", sans-serif;
+    overflow-x:hidden; overflow-y:auto;
+    background-color: #f8f8f8;
+}
+ul, li {
+    list-style: none;
+    padding: 0;
+}
+.color {
+    color: #337AB7;
+    font-weight: bold;
+    font-size: 18px;
+}
+.color1 {
+    color: #5BC0DE;
+    font-weight: bold;
+}
+.container {
+    width: 1170px;
+}
+.bg_white {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 0;
+}
+.color666 {
+    color: #999;
+}
+.color337 {
+    color: #337AB7;
+}
+
+/*头部导航部分*/
+#header .header_nav {
+    padding: 0 0 20px 0;
+    margin-bottom: 0;
+    width: 100%;
+}
+#header .head_top {
+    width: 100%;
+    height: 40px;
+    background: #6c6c6c;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+#header .top_left {
+    float: left;
+    color: #ccc;
+}
+#header .top_left p {
+    line-height: 3;
+    float: left;
+}
+#header .top_left a {
+    line-height: 3;
+    color: #ccc;
+    margin-left: 30px;
+    text-decoration: none;
+}
+#header .top_right {
+    float: right;
+    color: #ccc;
+}
+#header .top_right ul {
+    width: 400px;
+    height: 40px;
+    padding: 0;
+}
+#header .top_right ul li {
+    float: right;
+    color: #ccc;
+    list-style: none;
+    margin: 0 5px;
+    line-height: 3;
+    text-align: center;
+}
+#header .top_right ul li a {
+    text-decoration: none;
+    color: #ccc;
+}
+#header .brand {
+    padding: 0;
+    clear: both;
+}
+#header .navbar-img{
+    height: 50px !important;
+    margin-left: 10px;
+}
+#header .navbar #navbar-collapse li a:hover,.active a{
+    border-bottom: 2px solid #337AB7;
+}
+#header .navbar #navbar-collapse li{
+    margin-right: 10px;
+    font-size: 20px;
+}
+#header .navbar #navbar-collapse li a {
+    padding: 10px;
+    color: #000;
+}
+#header .navbar #navbar-collapse .active a{
+    border-bottom: 2px solid #337AB7;
+    background-color: #f8f8f8;
+    color: #337AB7;
+}
+
+
+/*侧边导航*/
+#account_cont {
+    overflow: hidden;
+    width: 1170px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container .menu{
+    width: 200px;
+    height: 800px;
+    float: left;
+    padding-left: 50px;
+    background-color: #fff;
+}
+.container .menu h3{
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 28px;
+}
+.container .menu ul li{
+    height: 28px;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+.container .menu ul li a:hover{
+    background: #9FB6CD;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -moz-border-radius:14px;
+    color:#fff;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    display: block;
+    width: 80px;
+    height: 26px;
+    padding-left: 10px;
+}
+.padd_20 {
+    padding: 20px 30px;
+    background-color: #fff;
+}
+.container .menu .selected{
+    background: #337AB7;
+    border-radius: 14px;
+    color: #fff;
+}
+.record .table {
+    border: 1px solid #eee;
+}
+.record .table thead {
+    color: #666;
+}
+.record .table tr,.record .table td {
+    height: 50px;
+}
+.margin_40 {
+    margin: 40px 0;
+}
+.pad020 {
+    padding: 0 20px;
+}
+
+/*充值*/
+
+.none_shadow {
+    outline: none;
+}
+.none_shadow:focus {
+    box-shadow: none;
+}
+.container .content{
+    width: 930px;
+    float: left;
+}
+.content .menu1 {
+    padding: 0 20px;
+}
+.container .content .menu1 .active{
+    display: block;
+}
+.margin_bt20 {
+    margin-bottom: 20px;
+}
+
+
+.menu1 #tab3 {
+    padding: 20px 30px;
+    background-color: #fff;
+}
+.menu1 #tab3 .color_337 {
+    color: #337AB7;
+    font-size: 18px;
+}
+.menu1 #tab3 .btn_wd145 {
+    margin-left: 145px;
+    width: 150px;
+    margin-top: 20px;
+}
+.menu1 #tab3 .color666 {
+    color: #666;
+    padding: 5px 0;
+}
+
+
+
+/*底部*/
+#footer {
+    width:100%;
+    height:auto;
+    background-color:#2D3A4B;
+    margin: 0 auto;
+}
+#footer .left {
+    width:100%;
+    height:auto;
+    text-align: left;
+    vertical-align: top;
+}
+#footer .center {
+    width:100%;
+    height:auto;
+    text-align: left;
+    vertical-align: top;
+}
+#footer .right_border {
+    border-right: 2px solid #ccc;
+}
+#footer .center-right {
+    width:100%;
+    height:auto;
+    text-align: left;
+    vertical-align: top;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+#footer .center-right .time {
+    padding-left: 20px;
+    color: #ccc;
+}
+#footer .center-right .img-circle {
+    width: 60px;
+    height: 60px;
+}
+#footer .right {
+    width:100%;
+    height:auto;
+    text-align: left;
+    vertical-align: top;
+}
+#footer .clear {
+    clear: both;
+}
+#footer h2 {
+    font-size: 18px;
+    font-weight: normal;
+    padding: 10px 0 0 10px;
+    color: #fff;
+}
+#footer hr {
+    width:89%;
+    border:1px dashed #eee;
+}
+#footer ul {
+    font-size: 14px;
+    text-indent: 15px;
+    line-height: 2;
+    padding: 0;
+}
+#footer a {
+    color:#fff;
+}
+#footer a:hover {
+    color: #337AB7;
+}
+#footer .tel {
+    font-size: 28px;
+    color: #337AB7;
+}
+#footer .img-margin {
+    display: block;
+    float: left;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+#footer .bottom {
+    background: #141C26;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #eee;
+}
+#footer .bottom ul {
+    width: 45%;
+    height: 50px;
+    margin: 0 auto;
+}
+#footer .bottom ul li {
+    float: left;
+    margin-right: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+#footer .bottom p {
+    margin-bottom: 10px;
+}
+
+
+/*微信弹出效果样式*/
+#footer .weixin {
+    position: relative;text-align: center;padding: 0;
+}
+#footer .weixin .weixin_nr{
+    width:110px;
+    height:110px;
+    padding:0;
+    background:#fff;
+    text-align:center;
+    position:absolute;
+    left:-25px;
+    bottom:45px;
+    display: none;
+}
+#footer .weixin .weixin_nr img{
+    margin:0;
+    padding: 0;
+}
+#footer .weixin .weixin_nr .arrow{
+    width:0;
+    height:0;
+    border-top:10px solid #fff;
+    border-left:10px solid transparent;
+    border-right:10px solid transparent;
+    position:absolute; left:50px;
+    bottom:-10px;}
+#footer .weixin.on .weixin_nr{
+    display:block;
+}
+
+
+
+@media(min-width: 768px){
+    .container {
+        width: 980px;
+    }
+    #footer .img-margin {
+        margin-right: 10px;
+    }
+    .img-responsive {
+        height: 20px;
+    }
+    .scroll {
+        left:10px;
+    }
+}
+@media(min-width:992px){
+    .container {
+        width: 1170px;
+    }
+    #footer .img-margin {
+        margin-right: 25px;
+    }
+    .img-responsive {
+        height: 25px;
+    }
+    .scroll {
+        left:10px;
+    }
+}
+@media(min-width:1200px){
+    .container {
+        width: 1170px;
+    }
+    #footer .img-margin {
+        margin-right: 30px;
+    }
+    .img-responsive {
+        height: 30px;
+    }
+    .scroll {
+        left:130px;
+    }
+}

@@ -1,0 +1,7 @@
+
+
+body,div,p,ul,table,li{margin:0;padding:0;}
+ul li{list-style:none;}
+#FontScroll{height:30px;line-height:30px;overflow:Hidden;padding:0;margin:20px 0 0 0;}
+#FontScroll .line{text-align:left;width:100%;}
+#FontScroll .fontColor a{color:red;}

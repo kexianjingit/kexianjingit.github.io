@@ -1,27 +1,429 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>个人主页</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta charset="UTF-8">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="renderer" content="webkit">
-  <meta content="yes" name="apple-mobile-web-app-capable">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-  <meta name="description" content=" ">
-  <meta name="keywords" content="">
-  <meta name="format-detection" content="telephone=no">
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Expires" content="0">
-  <link href="https://cdn.bootcss.com/Swiper/3.4.2/css/swiper.css" rel="stylesheet">
-  <script src="https://cdn.bootcss.com/Swiper/3.4.2/js/swiper.min.js"></script>
+<head lang="zh-CN">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta name="keywords" content="中鼎创盈，P2P理财，P2P网贷，个人理财，网贷平台">
+    <meta name="description" content="中鼎创盈是中国领先的P2P网贷平台，是P2P网贷行业的领跑者。中鼎创盈以稳健的风控和专业的团队，为投资者提供预期年化收益8%-12%的P2P理财服务。已经为47万多注册用户提供了P2P网贷、P2P理财、个人理财等服务项目。">
+    <title>中鼎创盈首页</title>
+    <link href="js/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" >
+    <link rel="stylesheet" type="text/css" href="css/lrtk.css" />
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
-  <body>
-    <div id="app">
-      <h1>你好！</h1>
+<body>
+
+<!--头部导航-->
+<header role="banner" id="header">
+    <nav role="navigation" class="navbar navbar-default header_nav">
+        <div class="head_top">
+            <div class="container">
+                <div class="top_left">
+                    <p><span class="glyphicon glyphicon-earphone"></span> 客服热线：400-8625-866</p>
+                    <a><span><img src="images/qq.png" style="width: 18px;"></span> 加入QQ群103163927</a>
+                </div>
+                <div class="top_right">
+                    <ul>
+                        <li><a href="qustion.html">帮助中心</a></li>
+                        <li><a href="guide.html">新手指引</a></li>
+                        <li><a href="login-fb.html">立即登录</a></li>
+                        <li>｜</li>
+                        <li><a href="register.html">免费注册</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand brand"  href="index.html"><img src="images/logo.gif" alt="中鼎创盈logo" class="navbar-img"></a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">首页</a></li>
+                    <li><a href="finance.html">我要理财</a></li>
+                    <li><a href="loan.html">我要借款</a></li>
+                    <li><a href="security.html">安全保障</a></li>
+                    <li><a href="about.html">关于我们</a></li>
+                    <li style="margin-right: 0;padding-right: 0;"><a class="my_accuont" href="account-1.html" style="background: #337AB7;padding: 5px;border-radius: 8px;color: #fff;margin-top: 5px;font-size: 16px"> 我的账号</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!--轮播图-->
+<div class="lubo_box">
+    <div id="myCarousel" class="carousel" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <a href="page-mobile.html"><img src="images/banner66.jpg" alt="轮播1" ></a>
+            </div>
+            <div class="item">
+                <a href="https://www.zdcy100.com/index_twoActivity.html"><img src="images/banner3.jpg" alt="轮播3" ></a>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
     </div>
-    <!-- built files will be auto injected -->
-  </body>
+    <div class="container login_box animated fadeInDownBig">
+        <div class="login_div">
+            <h4 class="login_div_h4">中鼎创盈年化收益率</h4>
+            <h3 class="login_div_h3">14.8% - 18.2%</h3>
+            <p class="login_div_p">30倍活期存款收益 3.27倍定期存款收益</p>
+            <a href="register.html" type="button" class="btn btn-primary btn-lg login_div_btn">注册有红包</a>
+            <p style="color: #666;">已有账号？<a href="login-fb.html"> 请登录</a></p>
+        </div>
+    </div>
+</div>
+
+<!--以下是主体内容-->
+<div style="background: #fff;">
+    <div class="container" style="padding: 0;">
+        <div id="Scroll_text">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div id="FontScroll">
+                        <ul>
+                            <li><a href="notice_list_text.html"><span class="glyphicon glyphicon-volume-up icon"></span> 平台公告： 中鼎创盈中鼎创盈 <span class="scroll_date">2016-08-15</span></a></li>
+                            <li><a href="notice_list_text.html"><span class="glyphicon glyphicon-volume-up icon"></span> 平台公告： 中鼎创盈中鼎创盈 <span class="scroll_date">2016-08-16</span></a></li>
+                            <li><a href="notice_list_text.html"><span class="glyphicon glyphicon-volume-up icon"></span> 平台公告： 中鼎创盈中鼎创盈 <span class="scroll_date">2016-08-17</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div id="tab">
+    <div class="container" style="padding-left: 50px;">
+        <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-4 col-margin" data-scroll-reveal="enter left">
+                <div class="media">
+                    <div class="media-left">
+                        <a href="#"><img class="media-object tab_transform-img" src="images/index_adt_01.png" alt="高收益"></a>
+                    </div>
+                    <div class="media-body media-middle">
+                        <h4 class="media-heading">低门槛，高收益</h4>
+                        <p class="text-muted">投资门栏仅100元</p>
+                        <p>预期年化收益超过10%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4 col-margin" data-scroll-reveal="enter wait 0.5s">
+                <div class="media">
+                    <div class="media-left">
+                        <a href="#"><img class="media-object tab_transform-img" src="images/index_adt_02.png" alt="灵活便捷"></a>
+                    </div>
+                    <div class="media-body media-middle">
+                        <h4 class="media-heading">灵活便捷</h4>
+                        <p class="text-muted">投资期限灵活</p>
+                        <p>便捷的服务渠道</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4 col-margin" data-scroll-reveal="enter right">
+                <div class="media">
+                    <div class="media-left">
+                        <a href="#"><img class="media-object tab_transform-img" src="images/index_adt_03.png" alt="安全保障"></a>
+                    </div>
+                    <div class="media-body media-middle">
+                        <h4 class="media-heading">安全保障</h4>
+                        <p class="text-muted">五道风控，本息有保障</p>
+                        <p>第三方资金托管</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="step">
+    <div class="container" style="padding: 0;">
+    <div class="row">
+        <div class="col-sm-12 col-xs-12">
+            <div class="bg">
+                <div class="row" style="margin-top: 5px;">
+                    <div class="col-sm-3 col-xs-3 transform-img">
+                        <div class="img-sty">
+                            <img src="images/jiaru-1.png" class="img-circle img-w" alt="加入我们">
+                        </div>
+                        <div class="text-sty">
+                            <h4>01.加入我们</h4>
+                            <p>一分钟注册账号</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-3 transform-img">
+                        <div class="img-sty">
+                            <img src="images/zhunbei.png" class="img-circle img-w" alt="准备投资">
+                        </div>
+                        <div class="text-sty">
+                            <h4>02.准备投资</h4>
+                            <p>开通汇付天下账户</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-3 transform-img">
+                        <div class="img-sty">
+                            <img src="images/xiangmu.png" class="img-circle img-w" alt="选择项目">
+                        </div>
+                        <div class="text-sty">
+                            <h4>03.选择项目</h4>
+                            <p>选择心仪项目投资</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-3 transform-img">
+                        <div class="img-sty">
+                            <img src="images/huankuan-1.png" class="img-circle img-w" alt="坐等还款">
+                        </div>
+                        <div class="text-sty">
+                            <h4>04.坐等还款</h4>
+                            <p>本息到期自动返还账户</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<br/>
+
+
+<div class="container bg_table">
+    <div class="left_banner">
+        <img src="images/xs_tu0.png" style="width: 100%;">
+        <div class="banner_text">
+            <h4>推荐项目</h4>
+            <p>年化14.8%~16.8%，轻松畅享收益。</p>
+            <p>中鼎创盈招牌产品</p>
+            <p>资产优质收益稳</p>
+        </div>
+        <img class="ban-img" src="images/cz_icon.png">
+    </div>
+
+    <div class="table-responsive" style="width: 83%;float: right;padding: 5px 20px;">
+    <table class="table table-hover">
+        <caption style="background-color: #f8f8f8;margin-top: 5px;border-radius: 5px;">
+            <span class="caption_span"><span class="glyphicon glyphicon-list" style="color: #337AB7;"></span> 投资列表 /</span><a href="login.html" class="go">现在去投资</a>
+            <a href="finance.html" class="caption_a">更多>></a>
+        </caption>
+         <thead class="thead_color">
+              <tr>
+                  <th class="table_dd_width1">项目名称</th>
+                  <th class="table_dd_width2">预期年化</th>
+                  <th class="table_dd_width3">项目金额</th>
+                  <th class="table_dd_width4">进度</th>
+                  <th>操作</th>
+              </tr>
+         </thead>
+         <tbody>
+              <tr>
+                  <td class="color1">某商业地产项目二期资金周转借款12 <span class="badge"> AA</span></td>
+                  <td class="color1">16.8%</td>
+                  <td>100,100,000</td>
+                  <td><div class="indicatorContainer-1"></div></td>
+                  <td><a href="detail.html" type="button" class="btn btn-primary">立即购买</a></td>
+              </tr>
+              <tr>
+                  <td class="color1">某商业地产项目二期资金周转借款12</td>
+                  <td class="color">16.8%</td>
+                  <td>100,100,000</td>
+                  <td><div class="indicatorContainer-1"></div></td>
+                  <td><a href="detail.html" type="button" class="btn btn-primary">立即购买</a></td>
+              </tr>
+              <tr>
+                  <td class="color1">某商业地产项目二期资金周转借款12</td>
+                  <td class="color">16.8%</td>
+                  <td>100,100,000</td>
+                  <td><div class="indicatorContainer-1"></div></td>
+                  <td><a href="detail.html" type="button" class="btn btn-primary">立即购买</a></td>
+              </tr>
+              <tr>
+                  <td class="color1">某商业地产项目二期资金周转借款12</td>
+                  <td class="color">16.8%</td>
+                  <td>100,100,000</td>
+                  <td><div class="indicatorContainer-1"></div></td>
+                  <td><a href="detail.html" type="button" class="btn btn-primary">立即购买</a></td>
+              </tr>
+              <tr>
+                  <td class="color1">某商业地产项目二期资金周转借款12</td>
+                  <td class="color">16.8%</td>
+                  <td>100,100,000</td>
+                  <td><div class="indicatorContainer"></div></td>
+                  <td><a href="detail.html" type="button" class="btn btn-primary disabled">被抢光了</a></td>
+              </tr>
+         </tbody>
+    </table>
+        </div>
+</div>
+
+<div class="container">
+    <img src="images/dynamic_list_img.jpg" style="width: 100%;">
+</div>
+
+<div id="news">
+    <div class="container bg_news">
+        <div class="row">
+        <div class="col-md-8 col-sm-8 col-xs-8 padd donghua" style="padding: 0;margin: 0;">
+            <div class="dong">
+                <div class="left">
+                    <img src="images/zd-dongtai.png" alt="中鼎动态">
+                </div>
+                <div class="right">
+                    <h3>中鼎动态<a href="dynamic_list.html" style="float: right;font-size: 14px;color: #666;margin-top: 5px;text-decoration: none;cursor: pointer;">更多…</a></h3>
+                    <div>
+                        <ul>
+                            <li><a href="dynamic_list_text.html">中鼎创盈app（安卓版）上线公告中鼎创盈app（安卓版）上线公告</a></li>
+                            <li><a href="dynamic_list_text.html">汇付天下交易系统公告汇付天下交易系统公告系统公告系统公告</a></li>
+                            <li><a href="dynamic_list_text.html">中鼎创盈降息公告中鼎创盈降息公告中鼎创盈降息公告中鼎创盈降息公告中鼎公告</a></li>
+                            <li><a href="dynamic_list_text.html">端午节假期工作安排公告端午节假期工作安排公告系统公告</a></li>
+                            <li><a href="dynamic_list_text.html">关于汇付天系统升级公告关于汇付天系统升级公告系统公告</a></li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+        </div>
+
+        <div class="col-md-4 col-sm-4 col-xs-4 padd donghua">
+            <div class="hang">
+                <div class="left">
+                    <img src="images/hang-1.jpg" alt="媒体新闻">
+                </div>
+                <div class="right">
+                    <h3>媒体新闻<a href="news_list.html" style="float: right;font-size: 14px;color: #666;margin-top: 5px;text-decoration: none;cursor: pointer;">更多…</a></h3>
+                    <div>
+                        <ul>
+                            <li><a href="news_list_text.html">中鼎创盈app（安卓版）上线公告</a></li>
+                            <li><a href="news_list_text.html">汇付天下交易系统公告系统公告</a></li>
+                            <li><a href="news_list_text.html">中鼎创盈降息公告中鼎创盈降息公告</a></li>
+                            <li><a href="news_list_text.html">端午节假期工作安排公告系统公告</a></li>
+                            <li><a href="news_list_text.html">关于汇付天系统升级公告系统公告</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--尾部-->
+<footer id="footer">
+    <div class="container" style="padding: 0;">
+        <div class="row">
+            <div class="col-sm-2 col-xs-2">
+                <div class="left">
+                    <h2>关于我们</h2>
+                    <hr>
+                    <ul>
+                        <li><a href="about.html#introduce">公司介绍</a></li>
+                        <li><a href="about.html#Admin">团队介绍</a></li>
+                        <li><a href="about.html#license">公司资质</a></li>
+                        <li><a href="about.html#contact">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-2 col-xs-2">
+                <div class="center">
+                    <h2>帮助中心</h2>
+                    <hr>
+                    <ul>
+                        <li><a href="qustion.html">平台服务</a></li>
+                        <li><a href="qustion.html">我要投资</a></li>
+                        <li><a href="qustion.html">充值提现</a></li>
+                        <li><a href="qustion.html">平台费用</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-2 col-xs-2">
+                <div class="right">
+                    <h2>安全保障</h2>
+                    <hr>
+                    <ul>
+                        <li><a href="security.html#grys_an">隐私保密</a></li>
+                        <li><a href="security.html#tzsj_an">投资安全</a></li>
+                        <li><a href="security.html#zhzj_an">数据与信息</a></li>
+                        <li><a href="security.html#sy_an">资金安全</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-2 col-xs-2">
+                <div class="right right_border">
+                    <h2>新手指引</h2>
+                    <hr>
+                    <ul>
+                        <li><a href="guide.html">如何注册</a></li>
+                        <li><a href="guide.html">如何投资</a></li>
+                        <li><a href="guide.html">如何充值</a></li>
+                        <li><a href="guide.html">如何提现</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-4">
+                <div class="center-right">
+                    <ul>
+                        <li class="tel"><span class="glyphicon glyphicon-phone-alt"></span> 400-8625-866</li>
+                        <li class="time">（人工服务时间：09：00-21:00）</li>
+                        <li class="img-margin"><a href="#"><img src="images/xl-h.png" class="img-circle" id="im" onmouseout="huanyuan();" onmouseover="jiaohuan();"></a></li>
+                        <li class="img-margin">
+                            <a href="#" class="weixin"  onmouseover="this.className = 'weixin on';" onmouseout="this.className = 'weixin';"><img src="images/wx-h.png" class="img-circle"  onmouseout="wxhuanyuan();" onmouseover="wxjiaohuan();" id="ahover" >
+                                <div class="weixin_nr">
+                                    <div class="arrow"></div>
+                                    <img src="images/weixin.jpg" style="margin-left: -14px;margin-top: 5px;width: 100px;height: 100px;" />
+                                </div>
+                            </a>
+                        </li>
+                        <li class="img-margin"><a href="#"><img src="images/ipad-h.png" class="img-circle" id="ip" onmouseout="iphuanyuan();" onmouseover="ipjiaohuan();"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-xs-12">
+                    <p>CopyRight © 2015 中鼎创盈金融服务有限公司 ‖ All Rights Reserved ‖ 粤ICP备15075148号-1</p>
+                    <ul>
+                        <li><a href="#"><img src="images/aqlm.png" class="img-responsive" alt="官网验证"></a></li>
+                        <li><a href="#"><img src="images/aqlm1.png" class="img-responsive" alt="网贷风控"></a></li>
+                        <li><a href="#"><img src="images/v_seal2.png" class="img-responsive" alt="norton"></a></li>
+                        <li><a href="#"><img src="images/aqlm.png" class="img-responsive" alt="官网验证"></a></li>
+                        <li><a href="#"><img src="images/bean.jpg" id="clickTips" tooltips="电子证书" class="img-responsive" alt="网站征信"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/scrollReveal.min.js"></script>
+<script src="js/radialIndicator.min.js"></script>
+<script src="js/fontscroll.js"></script>
+<script src="js/index.js"></script>
+
+
+</body>
 </html>
